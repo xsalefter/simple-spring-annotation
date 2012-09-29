@@ -56,7 +56,7 @@ public class SingletonInstanceTest {
 	 * same and equals. 
 	 */
 	public void nonManagedPropertyTest() {
-		this.service1.setTempName("xsalefter ganteng");
+		this.service1.setTempName("Hello For Temp");
 		Assert.assertEquals(service1.getTempName(), service2.getTempName());
 		Assert.assertSame(service1.getTempName(), service2.getTempName());
 	}
